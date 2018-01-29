@@ -3,6 +3,8 @@
 ▶ *[Text on GitHub](https://github.com/ipython-books/cookbook-2nd) with an [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode)*  
 ▶ *[Code on GitHub](https://github.com/ipython-books/cookbook-2nd-code) with an [MIT license](https://opensource.org/licenses/MIT)*
 
+[*Chapter 1 : A Tour of Interactive Computing with Jupyter and IPython*](../)
+
 # Introduction
 
 In this introduction, we will give a broad overview of Python, IPython, Jupyter, and the scientific Python ecosystem.

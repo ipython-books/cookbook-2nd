@@ -35,7 +35,7 @@ SciPy is the name of a Python package for scientific computing, but it refers al
 
 In the late 1990s, Travis Oliphant and others started to build efficient tools to deal with numerical data in Python: Numeric, Numarray, and finally, **NumPy**. **SciPy**, which implements many numerical computing algorithms, was also created on top of NumPy. In the early 2000s, John Hunter created **matplotlib** to bring scientific graphics to Python. At the same time, Fernando Perez created **IPython** to improve interactivity and productivity in Python. In the late 2000s, Wes McKinney created **pandas** for the manipulation and analysis of numerical tables and time series. Since then, hundreds of engineers and researchers collaboratively worked on this platform to make SciPy one of the leading open source platforms for scientific computing and data science.
 
-> INFO: Many of the SciPy tools are supported by NumFOCUS, a nonprofit that was created as a legal structure to promote the sustainable development of the ecosystem. NumFOCUS is supported by several large companies including Microsoft, IBM, and Intel.
+> Many of the SciPy tools are supported by NumFOCUS, a nonprofit that was created as a legal structure to promote the sustainable development of the ecosystem. NumFOCUS is supported by several large companies including Microsoft, IBM, and Intel.
 
 SciPy has its own conferences too, SciPy (in the US) and EuroSciPy (in Europe) (see https://conference.scipy.org/).
 
@@ -43,7 +43,7 @@ SciPy has its own conferences too, SciPy (in the US) and EuroSciPy (in Europe) (
 
 What are some of the main changes in the SciPy ecosystem since the first edition of this book, published in 2014? We give here a very brief selection.
 
-> TIP: Feel free to skip this section if you are new to the platform.
+> Feel free to skip this section if you are new to the platform.
 
 The last version of IPython at the time of writing is IPython 6.0, released in April 2017. It is the first version of IPython that is no longer compatible with Python 2. This decision allowed the developers to make the internal code simpler and to make better use of the new features of the language.
 
@@ -63,17 +63,17 @@ In this book, we use the **Anaconda distribution**, which is available at https:
 
 Anaconda comes with Python, IPython, Jupyter, NumPy, SciPy, pandas, matplotlib, and almost all of the other scientific packages we will be using in this book. The list of all packages is available at https://docs.anaconda.com/anaconda/packages/pkg-docs.
 
-> INFO: Miniconda is a light version of Anaconda with only Python and a few other essential packages. You can install only the packages you need one by one using the `conda` package manager of Anaconda.
+> Miniconda is a light version of Anaconda with only Python and a few other essential packages. You can install only the packages you need one by one using the `conda` package manager of Anaconda.
 
 We won't cover in this book the various other ways of installing a scientific Python distribution.
 
 The Anaconda website should give you all the instructions to install Anaconda on your system. To install new packages, you can use the `conda` package manager that comes with Anaconda. For example, to install the ipyparallel package (which is currently not installed by default in Anaconda), type `conda install ipyparallel` in a system shell.
 
-> TIP: There is a short introduction to system shells in *Chapter 2, Learning the basics of the Unix shell*.
+> There is a short introduction to system shells in *Chapter 2, Learning the basics of the Unix shell*.
 
 Another way of installing packages is with **conda-forge**, available at https://conda-forge.org/. This is a community-driven effort to automatically build the latest versions of packages available on GitHub, and make them available with `conda`. If a package is not available with `conda install somepackage`, one may use instead `conda install --channel conda-forge somepackage` if the package is supported by conda-forge.
 
-> TIP: GitHub is a commercial service that provides free and paid hosting for software repositories. It is one of the most popular platforms for open source collaborative development.
+> GitHub is a commercial service that provides free and paid hosting for software repositories. It is one of the most popular platforms for open source collaborative development.
 
 **Pip** is the Python system manager. Contrary to `conda`, `pip` works with any Python distribution, not just with Anaconda. Packages installable by pip are stored on the Python Package Index available at https://pypi.python.org/pypi.
 

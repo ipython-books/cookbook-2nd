@@ -33,7 +33,7 @@ Hello world!
 
 A notebook contains a linear succession of **cells** and **output areas**. A cell contains Python code, in one or multiple lines. The output of the code is shown in the corresponding output area.
 
-> TIP: In this book, the prompt `>>>` means that you need to type everything that starts after it. The `>>>` characters themselves should not be typed.
+> In this book, the prompt `>>>` means that you need to type everything that starts after it. The `>>>` characters themselves should not be typed.
 
 2. Now, we do a simple arithmetic operation:
 

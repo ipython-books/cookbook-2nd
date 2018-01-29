@@ -4,8 +4,8 @@ This repository contains the sources (text and code in Markdown) of the book [*I
 
 The IPython Cookbook contains over 100 hands-on recipes on high-performance numerical computing and data science in the Jupyter Notebook.
 
-▶ [**Get the code** as Jupyter notebooks](https://github.com/ipython-books/cookbook-2nd-code)
-
+▶ [**Get the code** as Jupyter notebooks](https://github.com/ipython-books/cookbook-2nd-code)  
+▶ [**Get the Google Chrome extension** to see LaTeX equations in Markdown documents on GitHub](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/)
 
 ## Contents
 

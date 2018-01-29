@@ -3,7 +3,7 @@
 ▶ *[Text on GitHub](https://github.com/ipython-books/cookbook-2nd) with an [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode)*  
 ▶ *[Code on GitHub](https://github.com/ipython-books/cookbook-2nd-code) with an [MIT license](https://opensource.org/licenses/MIT)*
 
-[*Chapter 1 : A Tour of Interactive Computing with Jupyter and IPython*](../)
+[*Chapter 1 : A Tour of Interactive Computing with Jupyter and IPython*](./)
 
 # 1.1. Introducing IPython and the Jupyter Notebook
 

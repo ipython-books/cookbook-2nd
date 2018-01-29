@@ -2,12 +2,12 @@
 
 In this chapter, we will cover the following topics:
 
-* [Introducing IPython and the Jupyter Notebook](01_notebook.md)
-* [Getting started with exploratory data analysis in the Jupyter Notebook](02_pandas.md)
-* [Introducing the multidimensional array in NumPy for fast array computations](03_numpy.md)
-* [Creating an IPython extension with custom magic commands](04_magic.md)
-* [Mastering IPython's configuration system](05_config.md)
-* [Creating a simple kernel for Jupyter](06_kernel.md)
+* [1.1. Introducing IPython and the Jupyter Notebook](01_notebook.md)
+* [1.2. Getting started with exploratory data analysis in the Jupyter Notebook](02_pandas.md)
+* [1.3. Introducing the multidimensional array in NumPy for fast array computations](03_numpy.md)
+* [1.4. Creating an IPython extension with custom magic commands](04_magic.md)
+* [1.5. Mastering IPython's configuration system](05_config.md)
+* [1.6. Creating a simple kernel for Jupyter](06_kernel.md)
 
 In this introduction, we will give a broad overview of Python, IPython, Jupyter, and the scientific Python ecosystem.
 

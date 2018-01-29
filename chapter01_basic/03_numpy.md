@@ -1,7 +1,7 @@
 <a href="https://github.com/ipython-books/cookbook-2nd"><img src="../cover-cookbook-2nd.png" align="left" alt="IPython Cookbook, Second Edition" height="140" /></a> *This is one of the 100+ free recipes of the [IPython Cookbook, Second Edition](https://github.com/ipython-books/cookbook-2nd), by [Cyrille Rossant](http://cyrille.rossant.net), a guide to numerical computing and data science in the Jupyter Notebook. The ebook and printed book are available for purchase at [Packt Publishing](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e).*
 
 ▶ *[Text on GitHub](https://github.com/ipython-books/cookbook-2nd) with a [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode)*  
-▶ *[Code on GitHub](https://github.com/ipython-books/cookbook-2nd-code) with an [MIT license](https://opensource.org/licenses/MIT)*
+▶ *[Code on GitHub](https://github.com/ipython-books/cookbook-2nd-code) with a [MIT license](https://opensource.org/licenses/MIT)*
 
 [*Chapter 1 : A Tour of Interactive Computing with Jupyter and IPython*](./)
 
@@ -167,7 +167,6 @@ array([[ 0.635,  0.587,  ...,  0.849,  0.046],
 
 ```{output:stdout}
 134 ms ± 1.79 ms per loop (mean ± std. dev. of 7 runs,
-    10 loops each)
     1000 loops each)
 ```
 
@@ -176,7 +175,6 @@ array([[ 0.635,  0.587,  ...,  0.849,  0.046],
 ```
 
 ```{output:stdout}
-    10 loops each)
 1.54 ms ± 48.9 µs per loop (mean ± std. dev. of 7 runs
     1000 loops each)
 ```

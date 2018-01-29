@@ -1,6 +1,6 @@
 # IPython Cookbook, Second Edition (2018)
 
-This repository contains the sources (text and code in Markdown) of the book [*IPython Interactive Computing and Visualization Cookbook, Second Edition (2018)*](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e), by [Cyrille Rossant](http://cyrille.rossant.net), *Packt Publishing*.
+<a href="https://github.com/ipython-books/cookbook-2nd"><img src="cover-cookbook-2nd.png" align="left" alt="IPython Cookbook, Second Edition" height="180" /></a>This repository contains the sources (text and code in Markdown) of the book [*IPython Interactive Computing and Visualization Cookbook, Second Edition (2018)*](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e), by [Cyrille Rossant](http://cyrille.rossant.net), *Packt Publishing*.
 
 The IPython Cookbook contains over 100 hands-on recipes on high-performance numerical computing and data science in the Jupyter Notebook.
 

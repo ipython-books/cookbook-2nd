@@ -16,7 +16,7 @@ html, button, input, select, textarea,
 #layout, #header {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 900px;
+    max-width: 800px;
 }
 
 a {
@@ -62,7 +62,7 @@ a:hover {
     text-transform: lowercase;
 }
 #social div {
-    /*text-align: right;*/
+    text-align: right;
 }
 #social a  {
     margin-right: 0em;
@@ -111,7 +111,7 @@ a:hover {
 }
 #content .l-box {
     margin: 0;
-    padding: 0 4em 0 0;
+    padding: 0 0 0 0;
     position: relative;
 }
 
@@ -184,7 +184,7 @@ code {
 
 #post img, .post img, .page img, #page img {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 600px;
     margin: 0 auto;
     text-align: center;
     display: block;
@@ -313,8 +313,8 @@ h4 {
 }
 
 #footer .l-box {
-    margin: 4em 0 1em 0;
-    padding: .25em 4em 1em 0;
+    margin: 1em 0 1em 0;
+    padding: .25em 0 1em 0;
 }
 
 #footer .l-box > div {

@@ -31,7 +31,7 @@ def process_urls(contents):
     return contents
 
 
-def process_ad(contents):
+def process_ad(contents, path):
     contents = contents.replace('<a href="https://github.com/ipython-books/cookbook-2nd">'
                                 '<img src="../cover-cookbook-2nd.png" align="left" '
                                 'alt="IPython Cookbook, Second Edition" height="140" /></a> '
@@ -48,8 +48,10 @@ def process_ad(contents):
                                 )
 
     contents = re.sub(r'\[(\*Chapter [^\]]+\*)\]\((\.\/)\)',
-                      r"[\1]({filename}index.md)",
+                      r"▶ [**_Go to_** \1]({filename}index.md)  \n▶ [_**Get** the Jupyter notebook_](%s)  " % path,
                       contents)
+
+    contents = contents.replace('▶ ', '▶&nbsp;&nbsp;')
 
     return contents
 
@@ -99,10 +101,17 @@ def create_index():
 
 
 def write_file(fin, fout):
+
+    chapter = fout.parent.name
+    name = fout.with_suffix('.ipynb').name
+
+    path = ('https://github.com/ipython-books/cookbook-2nd-code/blob/master/'
+            '%s/%s') % (chapter, name)
+
     contents = fin.read_text()
     contents = process_header(contents)
     contents = process_urls(contents)
-    contents = process_ad(contents)
+    contents = process_ad(contents, path)
     contents = process_code(contents)
     fout.write_text(contents)
 
@@ -119,6 +128,8 @@ def create_chapter(chapter):
         fin = CURDIR / f'../{chapter.name}/{file.name}'
         fout = CURDIR / f'content/pages/{chapter.name}/{file.name}'
         write_file(fin, fout)
+
+    return
 
     output_dir = index_out.parent
     subdirs = sorted(chapter.glob('*_files'))

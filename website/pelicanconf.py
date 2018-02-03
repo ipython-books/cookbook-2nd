@@ -19,13 +19,30 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight',
+                                           'guess_lang': False,
+                                           'linenums': False,
+                                           'use_pygments': True,
+                                           },
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        # 'markdown.extensions.headerid': {},
+    },
+}
+
+
 MENUITEMS = (('home', '/'),
              ('Jupyter notebooks', CODE),
              ('minibook', MINIBOOK),
              ('author', AUTHOR_WEBSITE),
              )
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 
-# PAGE_PATHS = ('../',)
+PAGE_PATHS = ['pages']
+STATIC_PATHS = ['pages']
 
 
 # Social widget

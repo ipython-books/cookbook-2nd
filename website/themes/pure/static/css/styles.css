@@ -73,82 +73,6 @@ a:hover {
 
 
 
-/****** SIDEBAR ******/
-
-#sidebar .l-box {
-    margin: 0;
-    padding: 0;
-}
-
-#sidebar p {
-    font-size: .9em;
-}
-
-
-
-#sidebar .books {
-    margin: 0;
-    font-size: 90%;
-    display: block;
-    clear: both;
-}
-#sidebar .books h3 {
-    margin: .5em 0 .5em 0;
-}
-#sidebar .books div {
-    margin: 0;
-    padding: 0;
-    float: left;
-    width: 50%;
-}
-#sidebar .books div.book-1 {
-}
-#sidebar .books div.book-2 {
-    text-align: right;
-}
-#sidebar .books .box {
-    width: 95%;
-}
-#sidebar .books img {
-    width: 100%;
-}
-
-#sidebar .books .button-book1,
-#sidebar .books .button-book2 {
-    width: 100%;
-    color: white;
-    padding: .25em;
-    margin: .1em 0 .3em 0;
-}
-#sidebar .books .button-data {
-    opacity: .85;
-}
-#sidebar .books .button-news {
-    opacity: .7;
-}
-
-#sidebar .books .button-book1 {
-    background-color: #F89321;
-}
-
-#sidebar .books .button-book2 {
-    background-color: #6DBC51;
-}
-
-#sidebar .books > p {
-    padding: .5em 0 .5em 0;
-    margin: 0;
-    clear: both;
-}
-
-#sidebar .books .box p {
-    margin: 0 0 .25em 0;
-    color: #777;
-    white-space: nowrap;
-}
-
-
-
 /****** CONTENT ******/
 #content {
     padding: 0;
@@ -200,22 +124,6 @@ code {
     padding: 0 .1em;
 }
 
-.book-cover {
-}
-.book-cover img {
-    width: 100%;
-    /*max-width: 200px;*/
-}
-.book-descr > div.box {
-    padding: 0 0 0 2em;
-}
-.book-descr h3 {
-    margin: 0 0 1em 0;
-}
-.book-descr .sub-header-3 ul {
-    margin: 0;
-}
-
 
 
 /************ BUTTONS BOOKS ***************/
@@ -252,28 +160,18 @@ code {
 
 
 /***** IPYNB INPUT OUTPUT ******/
-.ipynb-input .highlight pre {
+.highlight pre {
     margin: 0;
     border-left: 1em solid #888;
 }
 
-.ipynb-output {
-
-    font-family: 'Ubuntu Mono';
+.highlight-text pre {
     font-size: .9em;
     padding: .5em;
-
+    border: 0;
+    color: black;
     margin: 0 0 1em 0;
-    /*padding: .25em .5em;*/
     background-color: #ccc;
-}
-
-.ipynb-html {
-    margin: 1em 0;
-}
-
-.ipynb-html td, .ipynb-html th {
-    padding: .25em;
 }
 
 

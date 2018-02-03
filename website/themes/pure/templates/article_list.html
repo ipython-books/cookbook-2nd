@@ -1,0 +1,19 @@
+{% for article in articles_page.object_list %}
+    <section class="post">
+        <header class="post-header">
+            <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+            <p class="sub-header-3">{{ article.locale_date }}</p>
+            <p class="post-summary">{{ article.summary }}</p>
+        </header>
+        <div class="read-more">
+            <a class="pure-button" href="{{ SITEURL }}/{{ article.url }}">
+                read on
+            </a>
+        </div>
+    </section>
+    {% if not loop.last %}
+        <hr />
+    {% endif %}
+{% endfor %}
+
+{% include 'pagination.html' %}

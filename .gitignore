@@ -1,1 +1,4 @@
 code
+output
+*.pid
+__pycache__

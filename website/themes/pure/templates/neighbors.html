@@ -1,0 +1,21 @@
+
+<nav class="pagination-wrapper">
+    <div class="pagination">
+        <div class="pagination-left">
+            {% if article.next_article %}
+                <a href="{{ SITEURL }}/{{ article.next_article.url }}">
+                    &larr; previous
+                </a>
+            {% endif %}
+        </div>
+        <div class="pagination-right">
+            {% if article.prev_article %}
+                <a href="{{ SITEURL }}/{{ article.prev_article.url }}">
+                    next&nbsp;&rarr;
+                </a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </div>
+    </div>
+</nav>

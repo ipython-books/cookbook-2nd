@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section id="posts">
+
+        <header id="posts-header">
+            <h1>{{ SITENAME }}</h1>
+        </header>
+
+        {% include 'article_list.html' %}
+    </section>
+{% endblock content %}

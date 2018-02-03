@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section id="tag-posts">
+
+        <header id="tag-header">
+            <h1>tag: {{ tag }}</h1>
+        </header>
+
+        {% include 'article_list.html' %}
+    </section>
+{% endblock content %}

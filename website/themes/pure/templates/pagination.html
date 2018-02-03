@@ -1,0 +1,23 @@
+<nav class="pagination-wrapper">
+    {% if DEFAULT_PAGINATION %}
+    <div class="pagination">
+        <div class="pagination-left">
+            {% if articles_page.has_previous() %}
+                <a href="{{ SITEURL }}/{{ articles_previous_page.url }}"><span>&larr; previous</span></a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </div>
+
+        {% if articles_page.has_previous() or articles_page.has_next() %}
+        <span>Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}</span>
+        {% endif %}
+
+        <div class="pagination-right">
+            {% if articles_page.has_next() %}
+                <a href="{{ SITEURL }}/{{ articles_next_page.url }}">next&nbsp;&rarr;</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</nav>

@@ -9,6 +9,7 @@ import shutil
 CURDIR = Path(__file__).resolve().parent
 COVER_IMAGE = ('https://raw.githubusercontent.com/ipython-books/'
                'cookbook-2nd/master/cover-cookbook-2nd.png')
+URLIZE_RE = r'(?<!"|\(|\+)(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*))'
 
 
 def get_readme():
@@ -21,7 +22,7 @@ def process_header(contents, metadata=''):
     title = contents[i + 2:j]
     contents = contents[:i] + contents[j:]
     contents = f'title: {title}\n' + metadata + '\n' + contents
-    return contents    
+    return contents
 
 
 def process_urls(contents):
@@ -45,8 +46,10 @@ def process_ad(contents):
                                 '*This is one of the 100+ free recipes of the [IPython Cookbook, '
                                 'Second Edition](/)',
                                 )
-    
-    contents = re.sub(r'\[\*Chapter [^\]]+\*\]\(\.\/\)', '', contents)
+
+    contents = re.sub(r'\[(\*Chapter [^\]]+\*)\]\((\.\/)\)',
+                      r"[\1]({filename}index.md)",
+                      contents)
 
     return contents
 
@@ -54,8 +57,21 @@ def process_ad(contents):
 def process_code(contents):
 
     contents = re.sub(r'\{output:[^\}]+\}', 'output', contents)
-
     contents = re.sub(r'!\[([^\]]+)\]\(([^\)\{]+)\)', r'![\1]({filename}\2)', contents)
+    contents = re.sub(r'^([0-9]+)\. ', r'**\1.&nbsp;** ', contents, flags=re.M)
+    contents = re.sub(URLIZE_RE, r'[\1](\1)', contents)
+
+    # lines = []
+    # to_indent = False
+    # for line in contents.splitlines():
+    #     if re.match(r'^[1-9]{1,}\. ', line):
+    #         to_indent = True
+    #     elif re.match(r'^[\#]{1,} ', line):
+    #         to_indent = False
+    #     if to_indent and not re.match(r'^[1-9]{1,}\. ', line):
+    #         line = '    ' + line
+    #     lines.append(line)
+    # return '\n'.join(lines)
 
     return contents
 
@@ -63,7 +79,7 @@ def process_code(contents):
 def create_index():
     readme = get_readme()
     readme = process_header(readme, 'save_as: index.html')
-    
+
     readme = readme.replace('This repository contains the sources of the book (in Markdown, ',
                             'Most of the book is freely available on this website (')
 
@@ -98,7 +114,7 @@ def create_chapter(chapter):
 
     write_file(index_in, index_out)
     for file in sorted(chapter.glob('*.md')):
-        if file.name == 'README.md':
+        if file.name in ('README.md', '00_intro.md'):
             continue
         fin = CURDIR / f'../{chapter.name}/{file.name}'
         fout = CURDIR / f'content/pages/{chapter.name}/{file.name}'
@@ -122,4 +138,3 @@ if __name__ == '__main__':
     chapters = sorted((CURDIR / '../').glob('chapter*'))
     for chapter in chapters:
         create_chapter(chapter)
-        exit()

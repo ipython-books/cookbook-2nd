@@ -18,6 +18,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
+PLUGIN_PATHS = ['../../pelican-plugins']
+
 
 MARKDOWN = {
     'extension_configs': {
@@ -28,9 +30,9 @@ MARKDOWN = {
                                            },
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-        # 'markdown.extensions.headerid': {},
     },
 }
+
 
 
 MENUITEMS = (('home', '/'),

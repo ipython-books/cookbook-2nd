@@ -183,13 +183,16 @@ code {
 }
 
 #post img, .post img, .page img, #page img {
-    max-width: 100%;
+    max-width: calc(100% - 10px);
     max-height: 600px;
     margin: 0 auto;
     text-align: center;
     display: block;
 }
 
+section > p > img {
+    border: 5px solid #eee;
+}
 
 
 

@@ -129,7 +129,7 @@ def autocorr_name(name, gender, color, axes=None):
     axes[1].set_title("Autocorrelation")
 ```
 
-6. Let's take a look at two female names:
+7. Let's take a look at two female names:
 
 ```python
 fig, axes = plt.subplots(1, 2, figsize=(12, 4))

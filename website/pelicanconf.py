@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Cyrille Rossant'
-SITENAME = 'IPython Cookbook (2018)'
+SITENAME = 'IPython Cookbook'
 SITEURL = ''
 THEME = 'themes/pure'
 TWITTER = 'https://twitter.com/cyrillerossant'
@@ -20,7 +20,6 @@ DEFAULT_LANG = 'en'
 
 PLUGIN_PATHS = ['../../pelican-plugins']
 PLUGINS = ['render_math']
-
 
 MARKDOWN = {
     'extension_configs': {
@@ -47,6 +46,8 @@ PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_PATHS = ['pages']
 STATIC_PATHS = ['pages']
 
+CATEGORY_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
 
 # Social widget
 SOCIAL = (('twitter', TWITTER),

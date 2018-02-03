@@ -9,7 +9,7 @@ import shutil
 CURDIR = Path(__file__).resolve().parent
 COVER_IMAGE = ('https://raw.githubusercontent.com/ipython-books/'
                'cookbook-2nd/master/cover-cookbook-2nd.png')
-URLIZE_RE = r'(?<!"|\(|\+)(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*))'
+URLIZE_RE = r'(?<!"|\'|\(|\+)(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*))'
 
 
 def get_readme():

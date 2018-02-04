@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 import re
 import shutil
+from textwrap import dedent
 
 
 CURDIR = Path(__file__).resolve().parent
@@ -160,18 +161,38 @@ def create_chapter(chapter):
 
 
 def create_404():
-    contents = '''Title: Not Found
-    Status: hidden
-    Save_as: 404.html
+    contents = dedent('''
+    Title: Not Found
+    slug: 404
+    save_as: 404.html
 
     Page not found. [Go back to the home page.](/)
-    '''
+    ''').strip()
     (CURDIR / 'content/pages/404.md').write_text(contents)
+
+
+def create_old():
+    contents = dedent('''
+    Title: IPython Minibook, Second Edition (2015)
+    slug: minibook
+
+    [Go back to the GitHub repo of the IPython Minibook, 2nd edition.](https://github.com/ipython-books/minibook-2nd-code)
+    ''').strip()
+    (CURDIR / 'content/pages/minibook.md').write_text(contents)
+
+    contents = dedent('''
+    Title: IPython Cookbook, Second Edition (2018)
+    slug: cookbook
+
+    [Go back to the homepage.](/)
+    ''').strip()
+    (CURDIR / 'content/pages/cookbook.md').write_text(contents)
 
 
 if __name__ == '__main__':
     create_index()
     create_404()
+    create_old()
 
     chapters = sorted((CURDIR / '../').glob('chapter*'))
     for chapter in chapters:

@@ -108,8 +108,24 @@ def write_file(fin, fout):
     path = ('https://github.com/ipython-books/cookbook-2nd-code/blob/master/'
             '%s/%s') % (chapter, name)
 
+    # Redirections from old website.
+    if name == '05_array_copies.ipynb':
+        metadata = 'Alias: /featured-01/'
+    elif name == '04_energy.ipynb':
+        metadata = 'Alias: /featured-02/'
+    elif name == '07_gps.ipynb':
+        metadata = 'Alias: /featured-03/'
+    elif name == '01_scikit.ipynb':
+        metadata = 'Alias: /featured-04/'
+    elif name == '04_turing.ipynb':
+        metadata = 'Alias: /featured-05/'
+    elif name == '02_z_test.ipynb':
+        metadata = 'Alias: /featured-07/'
+    else:
+        metadata = ''
+
     contents = fin.read_text()
-    contents = process_header(contents)
+    contents = process_header(contents, metadata)
     contents = process_urls(contents)
     contents = process_ad(contents, path)
     contents = process_code(contents)
@@ -143,8 +159,19 @@ def create_chapter(chapter):
         shutil.copytree(subdir, output_subdir)
 
 
+def create_404():
+    contents = '''Title: Not Found
+    Status: hidden
+    Save_as: 404.html
+
+    Page not found. [Go back to the home page.](/)
+    '''
+    (CURDIR / 'content/pages/404.md').write_text(contents)
+
+
 if __name__ == '__main__':
     create_index()
+    create_404()
 
     chapters = sorted((CURDIR / '../').glob('chapter*'))
     for chapter in chapters:

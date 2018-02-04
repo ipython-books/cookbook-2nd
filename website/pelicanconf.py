@@ -19,7 +19,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 
 PLUGIN_PATHS = ['../../pelican-plugins']
-PLUGINS = ['render_math']
+PLUGINS = ['render_math', 'pelican_alias']
 
 MARKDOWN = {
     'extension_configs': {

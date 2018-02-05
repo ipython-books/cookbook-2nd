@@ -149,7 +149,7 @@ def create_chapter(chapter):
         fout = CURDIR / f'content/pages/{chapter.name}/{file.name}'
         write_file(fin, fout)
 
-    return
+    # return
 
     output_dir = index_out.parent
     subdirs = sorted(chapter.glob('*_files'))

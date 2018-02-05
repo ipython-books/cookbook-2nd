@@ -7,6 +7,10 @@
 
 # 13.2. Simulating a Poisson process
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 A **Poisson process** is a particular type of **point process**, a stochastic model that represents random occurrences of instantaneous events. Roughly speaking, the Poisson process is the least structured, or the most random, point process.
 
 The Poisson process is a particular continuous-time Markov process.
@@ -129,3 +133,5 @@ Here are further references:
 ## See also
 
 * Simulating a discrete-time Markov chain
+
+-->

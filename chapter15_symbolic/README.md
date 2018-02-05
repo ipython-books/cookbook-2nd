@@ -9,7 +9,7 @@ In this chapter, we will cover the following topics:
 * [15.5. A bit of number theory with SymPy](05_number_theory.md)
 * [15.6. Finding a Boolean propositional formula from a truth table](06_logic.md)
 * [15.7. Analyzing a nonlinear differential system — Lotka-Volterra (predator-prey) equations](07_lotka.md)
-* [15.8. Getting started with Sage](08_sage.md)
+* [15.8. Getting started with Sage](08_sage.md) *
 
 In this chapter, we will introduce **SymPy**, a Python library for symbolic mathematics. Whereas most of the book deals with numerical methods, we will see examples here where symbolic computations are more suitable.
 

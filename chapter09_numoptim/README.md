@@ -2,7 +2,7 @@
 
 In this chapter, we will cover the following topics:
 
-* [9.1. Finding the root of a mathematical function](01_root.md)
+* [9.1. Finding the root of a mathematical function](01_root.md) *
 * [9.2. Minimizing a mathematical function](02_minimize.md)
 * [9.3. Fitting a function to data with nonlinear least squares](03_curvefitting.md)
 * [9.4. Finding the equilibrium state of a physical system by minimizing its potential energy](04_energy.md)

@@ -7,6 +7,10 @@
 
 # 2.9. Debugging code with IPython
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 Debugging is an integral part of software development and interactive computing. A widespread debugging technique consists of placing `print()` functions in various places in the code. Who hasn't done this? It is probably the simplest solution, but it is certainly not the most efficient (it is the poor man's debugger).
 
 IPython is perfectly adapted for debugging, and the integrated debugger is quite easy to use (actually, IPython merely offers a nice interface to the native Python debugger **pdb**). In particular, tab completion works in the IPython debugger. This recipe describes how to debug code with IPython.
@@ -73,3 +77,5 @@ embed()
 When your Python program reaches this code, it will pause and launch an interactive IPython terminal at this specific point. You will then be able to inspect all local variables, run any code you want, and possibly debug your code before resuming normal execution.
 
 Most Python IDEs offer graphical debugging features (see the *Efficient interactive computing workflows with IPython* recipe). A GUI can sometimes be more convenient than a command-line debugger. A list of Python debuggers is available at https://wiki.python.org/moin/PythonDebuggingTools.
+
+-->

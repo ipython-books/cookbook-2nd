@@ -7,6 +7,10 @@
 
 # 4.1. Evaluating the time taken by a command in IPython
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 The `%timeit` magic and the `%%timeit` cell magic (that applies to an entire code cell) allow us to quickly evaluate the time taken by one or several Python statements. The next recipes in this chapter will show methods for more extensive profiling.
 
 ## How to do it...
@@ -74,3 +78,5 @@ If you are not in an IPython interactive session or in a Jupyter Notebook, you c
 
 * Profiling your code easily with cProfile and IPython
 * Profiling your code line-by-line with line_profiler
+
+-->

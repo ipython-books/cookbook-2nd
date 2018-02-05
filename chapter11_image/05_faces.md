@@ -7,6 +7,10 @@
 
 # 11.5. Detecting faces in an image with OpenCV
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 **OpenCV (Open Computer Vision)** is an open source C++ library for computer vision. It features algorithms for image segmentation, object recognition, augmented reality, face detection, and other computer vision tasks.
 
 In this recipe, we will use OpenCV in Python to detect faces in a picture.
@@ -96,3 +100,5 @@ Here are a few references:
 * OpenCV's cascade classification API reference available at http://docs.opencv.org/modules/objdetect/doc/cascade_classification.html
 * The Viola–Jones object detection framework on Wikipedia, available at https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework
 * Boosting or how to create one strong classifier from many weak classifiers, explained at https://en.wikipedia.org/wiki/Boosting_%28machine_learning%29
+
+-->

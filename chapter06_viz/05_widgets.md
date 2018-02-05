@@ -7,6 +7,10 @@
 
 # 6.5. Discovering interactive visualization libraries in the Notebook
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 Several libraries provide interactive visualization of 2D or 3D data in the Notebook, using the capabilities of the Jupyter widgets. We give basic examples using four of these libraries: **ipyleaflet**, **bqplot**, **pythreejs**, and **ipyvolume**.
 
 ## Getting started
@@ -158,3 +162,5 @@ Here are several references:
 * ipyvolume at https://github.com/maartenbreddels/ipyvolume
 * Jupyter Google Maps at http://jupyter-gmaps.readthedocs.io/en/latest/
 * An interactive 3D molecular viewer for Jupyter, based on NGL, at http://nglviewer.org/nglview/latest/
+
+-->

@@ -3,7 +3,7 @@
 In this chapter, we will cover the following topics:
 
 * [13.1. Simulating a discrete-time Markov chain](01_markov.md)
-* [13.2. Simulating a Poisson process](02_poisson.md)
+* [13.2. Simulating a Poisson process](02_poisson.md) *
 * [13.3. Simulating a Brownian motion](03_brownian.md)
 * [13.4. Simulating a stochastic differential equation](04_sde.md)
 

@@ -7,6 +7,10 @@
 
 # 15.8. Getting started with Sage
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 Sage (http://www.sagemath.org) is a standalone mathematics software based on Python. It is an open source alternative to commercial products such as Mathematica, Maple, or MATLAB. Sage provides a unified interface to many open source mathematical libraries. These libraries include SciPy, SymPy, NetworkX, and other Python scientific packages, but also non-Python libraries such as ATLAS, BLAS, GSL, LAPACK, Singular, and many others.
 
 In this recipe, we will give a brief introduction to Sage.
@@ -129,3 +133,5 @@ This (too) short recipe cannot do justice to the huge list of possibilities offe
 ## See also
 
 * Diving into symbolic computing with SymPy
+
+-->

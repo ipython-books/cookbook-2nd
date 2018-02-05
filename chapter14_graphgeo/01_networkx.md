@@ -7,6 +7,10 @@
 
 # 14.1. Manipulating and visualizing graphs with NetworkX
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 In this recipe, we will show how to create, manipulate, and visualize graphs with NetworkX.
 
 ## Getting ready
@@ -149,3 +153,5 @@ Here are a few references:
 ## See also
 
 * Drawing flight routes with NetworkX
+
+-->

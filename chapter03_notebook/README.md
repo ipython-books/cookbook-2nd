@@ -6,7 +6,7 @@ In this chapter, we will cover the following topics:
 * [3.2. Converting a Jupyter notebook to other formats with nbconvert](02_nbformat.md)
 * [3.3. Mastering widgets in the Jupyter Notebook](03_widgets.md)
 * [3.4. Creating custom Jupyter Notebook widgets in Python, HTML, and JavaScript](04_custom_widgets.md)
-* [3.5. Configuring the Jupyter Notebook](05_custom_notebook.md)
+* [3.5. Configuring the Jupyter Notebook](05_custom_notebook.md) *
 * [3.6. Introducing JupyterLab](06_jupyterlab.md)
 
 In this chapter, we will see several advanced features and usage examples of the Jupyter Notebook. As we have only seen basic features in the previous chapters, we will dive deeper into the architecture of the Notebook here.

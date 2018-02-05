@@ -7,6 +7,10 @@
 
 # 8.7. Reducing the dimensionality of a dataset with a principal component analysis
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 In the previous recipes, we presented *supervised learning *methods; our data points came with discrete or continuous labels, and the algorithms were able to learn the mapping from the points to the labels.
 
 Starting with this recipe, we will present **unsupervised learning** methods. These methods might be helpful prior to running a supervised learning algorithm. They can give a first insight into the data.
@@ -118,3 +122,5 @@ Here are a few further references:
 ## See also
 
 * Detecting hidden structures in a dataset with clustering
+
+-->

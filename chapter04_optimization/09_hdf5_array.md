@@ -7,6 +7,10 @@
 
 # 4.9. Manipulating large arrays with HDF5
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 NumPy arrays can be persistently saved on disk using built-in functions in NumPy such as `np.savetxt()`, `np.save()`, or `np.savez()`, and loaded in memory using analogous functions. Common file formats for data arrays include raw binary files as in the previous recipe, the NPY file format implemented by NumPy (which are raw binary files with a header containing the metadata), and **Hierarchical Data Format**, or **HDF5**.
 
 An HDF5 file contains one or several datasets (arrays or heterogeneous tables) organized into a POSIX-like hierarchy. Datasets may be accessed lazily with memory mapping. In this recipe, we will use **h5py**, a Python package designed to deal with HDF5 files with a NumPy-like programming interface.
@@ -142,3 +146,5 @@ Here are a few references:
 * Processing huge NumPy arrays with memory mapping
 * Manipulating large heterogeneous tables with HDF5
 * Ten tips for conducting reproducible interavctinve computing experiments
+
+-->

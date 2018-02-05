@@ -32,7 +32,7 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [2.6. Ten tips for conducting reproducible interactive computing experiments](chapter02_best_practices/06_tips.md)
 * [2.7. Writing high-quality Python code](chapter02_best_practices/07_high_quality.md)
 * [2.8. Writing unit tests with py.test](chapter02_best_practices/08_test.md)
-* [2.9. Debugging code with IPython](chapter02_best_practices/09_debugging.md)
+* [2.9. Debugging code with IPython](chapter02_best_practices/09_debugging.md) *
 
 
 ### [Chapter 3 : Mastering the Jupyter Notebook](chapter03_notebook)
@@ -41,13 +41,13 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [3.2. Converting a Jupyter notebook to other formats with nbconvert](chapter03_notebook/02_nbformat.md)
 * [3.3. Mastering widgets in the Jupyter Notebook](chapter03_notebook/03_widgets.md)
 * [3.4. Creating custom Jupyter Notebook widgets in Python, HTML, and JavaScript](chapter03_notebook/04_custom_widgets.md)
-* [3.5. Configuring the Jupyter Notebook](chapter03_notebook/05_custom_notebook.md)
+* [3.5. Configuring the Jupyter Notebook](chapter03_notebook/05_custom_notebook.md) *
 * [3.6. Introducing JupyterLab](chapter03_notebook/06_jupyterlab.md)
 
 
 ### [Chapter 4 : Profiling and Optimization](chapter04_optimization)
 
-* [4.1. Evaluating the time taken by a command in IPython](chapter04_optimization/01_timeit.md)
+* [4.1. Evaluating the time taken by a command in IPython](chapter04_optimization/01_timeit.md) *
 * [4.2. Profiling your code easily with cProfile and IPython](chapter04_optimization/02_profile.md)
 * [4.3. Profiling your code line-by-line with line_profiler](chapter04_optimization/03_linebyline.md)
 * [4.4. Profiling the memory usage of your code with memory_profiler](chapter04_optimization/04_memprof.md)
@@ -55,7 +55,7 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [4.6. Using stride tricks with NumPy](chapter04_optimization/06_stride_tricks.md)
 * [4.7. Implementing an efficient rolling average algorithm with stride tricks](chapter04_optimization/07_rolling_average.md)
 * [4.8. Processing large NumPy arrays with memory mapping](chapter04_optimization/08_memmap.md)
-* [4.9. Manipulating large arrays with HDF5](chapter04_optimization/09_hdf5_array.md)
+* [4.9. Manipulating large arrays with HDF5](chapter04_optimization/09_hdf5_array.md) *
 
 
 ### [Chapter 5 : High-Performance Computing](chapter05_hpc)
@@ -71,7 +71,7 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [5.9. Distributing Python code across multiple cores with IPython](chapter05_hpc/09_ipyparallel.md)
 * [5.10. Interacting with asynchronous parallel tasks in IPython](chapter05_hpc/10_async.md)
 * [5.11. Performing out-of-core computations on large arrays with Dask](chapter05_hpc/11_dask.md)
-* [5.12. Trying the Julia programming language in the Jupyter Notebook](chapter05_hpc/12_julia.md)
+* [5.12. Trying the Julia programming language in the Jupyter Notebook](chapter05_hpc/12_julia.md) *
 
 
 ### [Chapter 6 : Data Visualization](chapter06_viz)
@@ -80,7 +80,7 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [6.2. Creating statistical plots easily with seaborn](chapter06_viz/02_seaborn.md)
 * [6.3. Creating interactive Web visualizations with Bokeh and HoloViews](chapter06_viz/03_bokeh.md)
 * [6.4. Visualizing a NetworkX graph in the Notebook with D3.js](chapter06_viz/04_d3.md)
-* [6.5. Discovering interactive visualization libraries in the Notebook](chapter06_viz/05_widgets.md)
+* [6.5. Discovering interactive visualization libraries in the Notebook](chapter06_viz/05_widgets.md) *
 * [6.6. Creating plots with Altair and the Vega-Lite specification](chapter06_viz/06_altair.md)
 
 
@@ -93,24 +93,24 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [7.5. Fitting a probability distribution to data with the maximum likelihood method](chapter07_stats/05_mlfit.md)
 * [7.6. Estimating a probability distribution nonparametrically with a kernel density estimation](chapter07_stats/06_kde.md)
 * [7.7. Fitting a Bayesian model by sampling from a posterior distribution with a Markov Chain Monte Carlo method](chapter07_stats/07_pymc.md)
-* [7.8. Analyzing data with the R programming language in the Jupyter Notebook](chapter07_stats/08_r.md)
+* [7.8. Analyzing data with the R programming language in the Jupyter Notebook](chapter07_stats/08_r.md) *
 
 
 ### [Chapter 8 : Machine Learning](chapter08_ml)
 
 * [8.1. Getting started with scikit-learn](chapter08_ml/01_scikit.md)
-* [8.2. Predicting who will survive on the Titanic with logistic regression](chapter08_ml/02_titanic.md)
+* [8.2. Predicting who will survive on the Titanic with logistic regression](chapter08_ml/02_titanic.md) *
 * [8.3. Learning to recognize handwritten digits with a K-nearest neighbors classifier](chapter08_ml/03_digits.md)
 * [8.4. Learning from text — Naive Bayes for Natural Language Processing](chapter08_ml/04_text.md)
 * [8.5. Using support vector machines for classification tasks](chapter08_ml/05_svm.md)
 * [8.6. Using a random forest to select important features for regression](chapter08_ml/06_random_forest.md)
-* [8.7. Reducing the dimensionality of a dataset with a principal component analysis](chapter08_ml/07_pca.md)
+* [8.7. Reducing the dimensionality of a dataset with a principal component analysis](chapter08_ml/07_pca.md) *
 * [8.8. Detecting hidden structures in a dataset with clustering](chapter08_ml/08_clustering.md)
 
 
 ### [Chapter 9 : Numerical Optimization](chapter09_numoptim)
 
-* [9.1. Finding the root of a mathematical function](chapter09_numoptim/01_root.md)
+* [9.1. Finding the root of a mathematical function](chapter09_numoptim/01_root.md) *
 * [9.2. Minimizing a mathematical function](chapter09_numoptim/02_minimize.md)
 * [9.3. Fitting a function to data with nonlinear least squares](chapter09_numoptim/03_curvefitting.md)
 * [9.4. Finding the equilibrium state of a physical system by minimizing its potential energy](chapter09_numoptim/04_energy.md)
@@ -129,7 +129,7 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [11.2. Applying filters on an image](chapter11_image/02_filters.md)
 * [11.3. Segmenting an image](chapter11_image/03_segmentation.md)
 * [11.4. Finding points of interest in an image](chapter11_image/04_interest.md)
-* [11.5. Detecting faces in an image with OpenCV](chapter11_image/05_faces.md)
+* [11.5. Detecting faces in an image with OpenCV](chapter11_image/05_faces.md) *
 * [11.6. Applying digital filters to speech sounds](chapter11_image/06_speech.md)
 * [11.7. Creating a sound synthesizer in the Notebook](chapter11_image/07_synth.md)
 
@@ -145,14 +145,14 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 ### [Chapter 13 : Stochastic Dynamical Systems](chapter13_stochastic)
 
 * [13.1. Simulating a discrete-time Markov chain](chapter13_stochastic/01_markov.md)
-* [13.2. Simulating a Poisson process](chapter13_stochastic/02_poisson.md)
+* [13.2. Simulating a Poisson process](chapter13_stochastic/02_poisson.md) *
 * [13.3. Simulating a Brownian motion](chapter13_stochastic/03_brownian.md)
 * [13.4. Simulating a stochastic differential equation](chapter13_stochastic/04_sde.md)
 
 
 ### [Chapter 14 : Graphs, Geometry, and Geographic Information Systems](chapter14_graphgeo)
 
-* [14.1. Manipulating and visualizing graphs with NetworkX](chapter14_graphgeo/01_networkx.md)
+* [14.1. Manipulating and visualizing graphs with NetworkX](chapter14_graphgeo/01_networkx.md) *
 * [14.2. Drawing flight routes with NetworkX](chapter14_graphgeo/02_airports.md)
 * [14.3. Resolving dependencies in a directed acyclic graph with a topological sort](chapter14_graphgeo/03_dag.md)
 * [14.4. Computing connected components in an image](chapter14_graphgeo/04_connected.md)
@@ -170,10 +170,12 @@ This repository contains the sources of the book (in Markdown, [CC-BY-NC-ND lice
 * [15.5. A bit of number theory with SymPy](chapter15_symbolic/05_number_theory.md)
 * [15.6. Finding a Boolean propositional formula from a truth table](chapter15_symbolic/06_logic.md)
 * [15.7. Analyzing a nonlinear differential system — Lotka-Volterra (predator-prey) equations](chapter15_symbolic/07_lotka.md)
-* [15.8. Getting started with Sage](chapter15_symbolic/08_sage.md)
+* [15.8. Getting started with Sage](chapter15_symbolic/08_sage.md) *
 
 
 <!-- END_TOC -->
+
+Recipes marked with an asterisk * are only available in the [book](https://packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e).
 
 
 ## Contributing

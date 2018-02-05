@@ -7,6 +7,10 @@
 
 # 9.1. Finding the root of a mathematical function
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 In this short recipe, we will see how to use SciPy to find the root of a simple mathematical function of a single real variable.
 
 ## How to do it...
@@ -112,3 +116,5 @@ Here are a few references:
 ## See also
 
 * Minimizing a mathematical function
+
+-->

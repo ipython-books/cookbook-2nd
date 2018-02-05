@@ -6,7 +6,7 @@ In this chapter, we will cover the following topics:
 * [11.2. Applying filters on an image](02_filters.md)
 * [11.3. Segmenting an image](03_segmentation.md)
 * [11.4. Finding points of interest in an image](04_interest.md)
-* [11.5. Detecting faces in an image with OpenCV](05_faces.md)
+* [11.5. Detecting faces in an image with OpenCV](05_faces.md) *
 * [11.6. Applying digital filters to speech sounds](06_speech.md)
 * [11.7. Creating a sound synthesizer in the Notebook](07_synth.md)
 

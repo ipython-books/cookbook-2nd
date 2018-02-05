@@ -13,7 +13,7 @@ In this chapter, we will cover the following topics:
 * [5.9. Distributing Python code across multiple cores with IPython](09_ipyparallel.md)
 * [5.10. Interacting with asynchronous parallel tasks in IPython](10_async.md)
 * [5.11. Performing out-of-core computations on large arrays with Dask](11_dask.md)
-* [5.12. Trying the Julia programming language in the Jupyter Notebook](12_julia.md)
+* [5.12. Trying the Julia programming language in the Jupyter Notebook](12_julia.md) *
 
 The previous chapter presented techniques for code optimization. Sometimes, these methods are not sufficient, and we need to resort to advanced high-performance computing techniques.
 

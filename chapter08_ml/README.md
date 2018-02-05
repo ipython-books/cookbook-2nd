@@ -3,12 +3,12 @@
 In this chapter, we will cover the following topics:
 
 * [8.1. Getting started with scikit-learn](01_scikit.md)
-* [8.2. Predicting who will survive on the Titanic with logistic regression](02_titanic.md)
+* [8.2. Predicting who will survive on the Titanic with logistic regression](02_titanic.md) *
 * [8.3. Learning to recognize handwritten digits with a K-nearest neighbors classifier](03_digits.md)
 * [8.4. Learning from text — Naive Bayes for Natural Language Processing](04_text.md)
 * [8.5. Using support vector machines for classification tasks](05_svm.md)
 * [8.6. Using a random forest to select important features for regression](06_random_forest.md)
-* [8.7. Reducing the dimensionality of a dataset with a principal component analysis](07_pca.md)
+* [8.7. Reducing the dimensionality of a dataset with a principal component analysis](07_pca.md) *
 * [8.8. Detecting hidden structures in a dataset with clustering](08_clustering.md)
 
 In the previous chapter, we were interested in getting insight into data, understanding complex phenomena through partial observations, and making informed decisions in the presence of uncertainty. Here, we are still interested in analyzing and processing data using statistical tools. However, the goal is not necessarily to *understand* the data, but to *learn* from it.

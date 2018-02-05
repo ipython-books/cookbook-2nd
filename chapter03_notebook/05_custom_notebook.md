@@ -7,6 +7,10 @@
 
 # 3.5. Configuring the Jupyter Notebook
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 Many aspects of the Jupyter Notebook can be configured. We covered the configuration of the IPython kernel in Chapter 1, recipe *Mastering IPython's configuration system*. In this recipe, we show how to configure the Jupyter application and the Jupyter Notebook frontend.
 
 ## How to do it...
@@ -198,3 +202,5 @@ Here are a few references:
 # See also
 
 * Chapter 1, Mastering IPython's configuration system
+
+-->

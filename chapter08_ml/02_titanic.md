@@ -7,6 +7,10 @@
 
 # 8.2. Predicting who will survive on the Titanic with logistic regression
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 In this recipe, we will introduce **logistic regression**, a basic classifier. We will apply these techniques on a **Kaggle** dataset where the goal is to predict survival on the Titanic based on real data (see http://www.kaggle.com/c/titanic).
 
 > Kaggle (http://www.kaggle.com/competitions) hosts machine learning competitions where anyone can download a dataset, train a model, and test the predictions on the website.
@@ -203,3 +207,5 @@ Here are a few references:
 * Geting started with scikit-learn
 * Learning to recognize handwritten digits with a K-nearest neighbors classifier
 * Using support vector machines for classification tasks
+
+-->

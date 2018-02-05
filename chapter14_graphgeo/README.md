@@ -2,7 +2,7 @@
 
 In this chapter, we will cover the following topics:
 
-* [14.1. Manipulating and visualizing graphs with NetworkX](01_networkx.md)
+* [14.1. Manipulating and visualizing graphs with NetworkX](01_networkx.md) *
 * [14.2. Drawing flight routes with NetworkX](02_airports.md)
 * [14.3. Resolving dependencies in a directed acyclic graph with a topological sort](03_dag.md)
 * [14.4. Computing connected components in an image](04_connected.md)

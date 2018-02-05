@@ -10,7 +10,7 @@ In this chapter, we will cover the following topics:
 * [2.6. Ten tips for conducting reproducible interactive computing experiments](06_tips.md)
 * [2.7. Writing high-quality Python code](07_high_quality.md)
 * [2.8. Writing unit tests with py.test](08_test.md)
-* [2.9. Debugging code with IPython](09_debugging.md)
+* [2.9. Debugging code with IPython](09_debugging.md) *
 
 This is a special chapter about good practices in interactive computing. It describes how to work efficiently and properly with the tools this book is about. We will introduce common tools such as the Unix shell, the latest features of Python 3, and git, before tackling reproducible computing experiments (notably with the Jupyter Notebook).
 

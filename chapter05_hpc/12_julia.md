@@ -7,6 +7,10 @@
 
 # 5.12. Trying the Julia programming language in the Jupyter Notebook
 
+[The recipe is available in the book, to be purchased on Packt.](https://www.packtpub.com/big-data-and-business-intelligence/ipython-interactive-computing-and-visualization-cookbook-second-e)
+
+<!-- REMOVE AS PER PACKT AGREEMENT
+
 **Julia** (http://julialang.org) is a high-level, dynamic language for high-performance numerical computing. The first version was released in 2012 after three years of development at MIT. Julia borrows ideas from Python, R, MATLAB, Ruby, Lisp, C, and other languages. Its major strength is to combine the expressivity and ease of use of high-level, dynamic languages with the speed of C (almost). This is achieved via an LLVM-based Just-In- Time (JIT) compiler that targets machine code for x86-64 architectures.
 
 In this recipe, we will try Julia in the Jupyter Notebook using the **IJulia** package available at https://github.com/JuliaLang/IJulia.jl. We will also show how to use Python packages (such as NumPy and matplotlib) from Julia. Specifically, we will compute and display a Julia set.
@@ -225,3 +229,5 @@ Here are some references:
 * Gadfly.jl, a Julia plotting library, available at http://gadflyjl.org/stable/
 * DataFrames.jl, an equivalent of pandas for Julia, available at https://github.com/JuliaStats/DataFrames.jl
 * Juno, an IDE for Julia, available at http://junolab.org/
+
+-->

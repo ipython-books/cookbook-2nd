@@ -9,7 +9,7 @@ In this chapter, we will cover the following topics:
 * [7.5. Fitting a probability distribution to data with the maximum likelihood method](05_mlfit.md)
 * [7.6. Estimating a probability distribution nonparametrically with a kernel density estimation](06_kde.md)
 * [7.7. Fitting a Bayesian model by sampling from a posterior distribution with a Markov Chain Monte Carlo method](07_pymc.md)
-* [7.8. Analyzing data with the R programming language in the Jupyter Notebook](08_r.md)
+* [7.8. Analyzing data with the R programming language in the Jupyter Notebook](08_r.md) *
 
 In the previous chapters, we reviewed technical aspects of high-performance interactive computing in Python. We now begin the second part of this book by illustrating a variety of scientific questions that can be tackled with Python.
 

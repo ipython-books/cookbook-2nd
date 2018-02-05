@@ -22,7 +22,7 @@ def process_header(contents, metadata=''):
     j = contents.index('\n', i)
     title = contents[i + 2:j]
     contents = contents[:i] + contents[j:]
-    contents = f'title: {title}\n' + metadata + '\n' + contents
+    contents = f'title: {title}\n' + metadata + '\n\n' + contents
     return contents
 
 
@@ -110,18 +110,21 @@ def write_file(fin, fout):
             '%s/%s') % (chapter, name)
 
     # Redirections from old website.
+    def alias(n):
+        return 'Alias: /featured-%s/\n       /featured-%s.html' % (n, n)
+
     if name == '05_array_copies.ipynb':
-        metadata = 'Alias: /featured-01/'
+        metadata = alias('01')
     elif name == '04_energy.ipynb':
-        metadata = 'Alias: /featured-02/'
+        metadata = alias('02')
     elif name == '07_gps.ipynb':
-        metadata = 'Alias: /featured-03/'
+        metadata = alias('03')
     elif name == '01_scikit.ipynb':
-        metadata = 'Alias: /featured-04/'
+        metadata = alias('04')
     elif name == '04_turing.ipynb':
-        metadata = 'Alias: /featured-05/'
+        metadata = alias('05')
     elif name == '02_z_test.ipynb':
-        metadata = 'Alias: /featured-07/'
+        metadata = alias('07')
     else:
         metadata = ''
 
@@ -171,22 +174,32 @@ def create_404():
     (CURDIR / 'content/pages/404.md').write_text(contents)
 
 
+def _create(name, contents):
+    contents = dedent(contents).strip()
+    (CURDIR / 'content/pages/' / name).write_text(contents)
+
+
 def create_old():
-    contents = dedent('''
+    _create('minibook.md', '''
     Title: IPython Minibook, Second Edition (2015)
     slug: minibook
 
     [Go back to the GitHub repo of the IPython Minibook, 2nd edition.](https://github.com/ipython-books/minibook-2nd-code)
-    ''').strip()
-    (CURDIR / 'content/pages/minibook.md').write_text(contents)
+    ''')
 
-    contents = dedent('''
+    _create('cookbook.md', '''
     Title: IPython Cookbook, Second Edition (2018)
     slug: cookbook
 
     [Go back to the homepage.](/)
-    ''').strip()
-    (CURDIR / 'content/pages/cookbook.md').write_text(contents)
+    ''')
+
+    _create('featured-06.md', '''
+    Title: VisPy tutorial
+    slug: featured-06
+
+    [This page has moved.](https://github.com/ipython-books/cookbook-code/blob/master/featured/06_vispy.ipynb)
+    ''')
 
 
 if __name__ == '__main__':

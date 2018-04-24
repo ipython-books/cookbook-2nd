@@ -70,7 +70,7 @@ def make_code(chapter):
 
         # Output notebook path.
         output_dir = Path('code/%s/' % chapter)
-        output_dir.mkdir(exist_ok=True)
+        output_dir.mkdir(parents=True, exist_ok=True)
         path = (output_dir / file.name).with_suffix('.ipynb')
 
         # Export the AST into a Jupyter notebook.

@@ -64,13 +64,14 @@ pos.head()
 ```python
 # We use a simple equirectangular projection,
 # also called Plate Carree.
+geo = ccrs.Geodetic()
 crs = ccrs.PlateCarree()
 # We create the map plot.
 ax = plt.axes(projection=crs)
 # We display the world map picture.
 ax.stock_img()
 # We display the storm locations.
-ax.scatter(x, y, color='r', s=.5, alpha=.25)
+ax.scatter(x, y, color='r', s=.5, alpha=.25, transform=geo)
 ```
 
 ![Location of the storms](06_kde_files/06_kde_15_0.png)
@@ -78,8 +79,7 @@ ax.scatter(x, y, color='r', s=.5, alpha=.25)
 6. Before performing the kernel density estimation, we transform the storms' positions from the **geodetic coordinate system** (longitude and latitude) into the map's coordinate system, called **plate carrée**.
 
 ```python
-geo = ccrs.Geodetic()
-h = geo.transform_points(crs, x, y)[:, :2].T
+h = crs.transform_points(geo, x, y)[:, :2].T
 h.shape
 ```
 
@@ -104,7 +104,7 @@ tx, ty = np.meshgrid(np.linspace(x0, x1, 2 * k),
                      np.linspace(y0, y1, k))
 # We reshape the grid for the kde() function.
 mesh = np.vstack((tx.ravel(), ty.ravel()))
-# We evaluate the kde() functionon the grid.
+# We evaluate the kde() function on the grid.
 v = kde(mesh).reshape((k, 2 * k))
 ```
 

@@ -9,7 +9,7 @@ THEME = 'themes/pure'
 TWITTER = 'https://twitter.com/cyrillerossant'
 GITHUB = 'https://github.com/ipython-books/cookbook-2nd'
 CODE = 'https://github.com/ipython-books/cookbook-2nd-code'
-AUTHOR_WEBSITE = 'http://cyrille.rossant.net'
+AUTHOR_WEBSITE = 'https://cyrille.rossant.net'
 MINIBOOK = 'https://github.com/ipython-books/minibook-2nd-code'
 
 PATH = 'content'

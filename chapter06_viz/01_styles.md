@@ -81,7 +81,7 @@ ax.set_title('default style')
 5. Now, we will customize the `ggplot` style by creating a new custom style to be applied in addition to `ggplot`. First, we specify the path to the custom style file, which should be in `mpl_configdir/stylelib/mycustomstyle.mpltstyle`, where `mpl_configdir` is the matplotlib config directory. Let's get this config directory:
 
 ```python
-cfgdir = matplotlib.get_configdir()
+cfgdir = mpl.get_configdir()
 cfgdir
 ```
 

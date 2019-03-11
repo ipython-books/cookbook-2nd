@@ -67,7 +67,7 @@ _ * 3
 my_notebook.ipynb
 ```
 
-On Windows, one may replaces `ls` by `dir`.
+On Windows, one may replace `ls` by `dir`.
 
 5. IPython comes with a library of **magic commands**. These commands are convenient shortcuts to common actions. They all start with `%` (the percent character). We can get the list of all magic commands with `%lsmagic`:
 

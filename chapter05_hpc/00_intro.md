@@ -19,7 +19,7 @@ With just-in-time compilation, Python code is dynamically compiled into a lower-
 
 JIT compilation techniques are implemented in packages such as **Numba** or **Numexpr** which we will cover in this chapter.
 
-We will also **Julia**, a programming language that uses JIT compilation to achieve high performance. This language can be used effectively in the Jupyter Notebook, thanks to the IJulia package.
+We will also use **Julia**, a programming language that uses JIT compilation to achieve high performance. This language can be used effectively in the Jupyter Notebook, thanks to the IJulia package.
 
 > INFO: **PyPy** (http://pypy.org), successor of Psyco, is another related project. This alternative implementation of Python (the reference implementation being CPython) integrates a JIT compiler. Thus, it is typically faster than CPython. Since October 2017, PyPy supports NumPy and pandas (but with Legacy Python rather than Python 3). See https://morepypy.blogspot.fr/2017/10/pypy-v59-released-now-supports-pandas.html for more details.
 

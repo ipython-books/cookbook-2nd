@@ -4,3 +4,66 @@ output
 __pycache__
 content
 
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coverage
+.hypothesis/
+.tox/
+nosetests.xml
+test-results/
+
+# Virtual environments
+venv/
+env/
+.venv/
+virtualenv/
+
+# Poetry - do not ignore lock file
+# poetry.lock
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude settings
+.claude/*
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.cache
+

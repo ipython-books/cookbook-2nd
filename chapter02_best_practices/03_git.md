@@ -224,7 +224,7 @@ Here are some references on Git:
 * Git, a simple guide by Roger Dudler, available at http://rogerdudler.github.io/git-guide/
 * Git Immersion, a guided tour, at http://gitimmersion.com
 * Atlassian Git tutorial, available at http://www.atlassian.com/git
-* Online Git course, available at http://www.codeschool.com/courses/try-git
+* Online Git course, available at https://coddy.tech/landing/git
 * Git tutorial by Lars Vogel, available at http://www.vogella.com/tutorials/Git/article.html
 * GitHub and Git tutorial, available at http://git-lectures.github.io
 * Intro to Git for scientists, available at http://karthik.github.io/git_intro/
